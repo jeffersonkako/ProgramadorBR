@@ -1,0 +1,30 @@
+body {
+    background-color:whitesmoke;
+    background-image: url('./BackgroundImage.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    font-size: 20px;
+}
+
+/* Alterando a cor em todos os 'p' no código [hexadecimal]*/
+p {
+    color: green;
+    background-color: #ffff00;
+    text-decoration: underline;
+}
+
+/* alterando a cor via seletor ID [rgb] rgba transparencia / gradiente / 2em 2x o tamanho da font padrão */ 
+#p1 {
+    background: linear-gradient(30leg, yellow, orange, yellow); 
+    color: rgb(21, 14, 14);
+    font-size: 2em;
+}
+
+/* Alterando a cor via separador Class */
+.fundo-transparente {
+    background-color: transparent;
+    color:black
+}
+
+/* Id > Class > p , ordem de prioridades */
