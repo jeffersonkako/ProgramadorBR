@@ -1,0 +1,18 @@
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.p1 {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.p2 {
+
+    font-weight: bold;
+    font-variant: small-caps;
+}

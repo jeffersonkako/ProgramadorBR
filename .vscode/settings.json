@@ -1,4 +1,7 @@
 {
     "vscord.status.button.enabled": false,
-    "vscord.status.button.active.enabled": false
+    "vscord.status.button.active.enabled": false,
+    "cSpell.words": [
+        "Indentação"
+    ]
 }

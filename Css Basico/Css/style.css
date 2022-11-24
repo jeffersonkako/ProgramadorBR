@@ -19,6 +19,7 @@ p {
     background: linear-gradient(30leg, yellow, orange, yellow); 
     color: rgb(21, 14, 14);
     font-size: 2em;
+    text-transform: capitalize;
 }
 
 /* Alterando a cor via separador Class */
