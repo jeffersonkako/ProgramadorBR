@@ -1,0 +1,18 @@
+a {
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: monospace;
+}
+
+/* altera o estado do link */
+a:visited {
+    background-color: rgb(98, 6, 185);   
+}
+
+/* aplica um efeito quando passamos o mouse por cima */
+a:hover {
+    padding: 30px;
+}

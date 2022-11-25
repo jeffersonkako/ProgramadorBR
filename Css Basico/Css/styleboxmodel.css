@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#box1 {
+    width: 100px; /* largura */
+    height: 100px; /* altura */
+    background-color: green; /* cor do elemento */
+    color: blue; /* cor do texto */
+    padding: 10px; /* borda internas */
+    border: 5px solid black; /* borda externa do elemento  */
+    box-sizing: border-box; /* respeita o tamanho do box, independente do border e padding */
+    margin: 10px; /* margem do elemento externa, sobrepõe o box-sizing */
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    color: blue;
+}
