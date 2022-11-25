@@ -4,7 +4,8 @@ a {
     padding: 20px;
     text-decoration: none;
     text-align: center;
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
 }
 
 /* altera o estado do link */
@@ -15,4 +16,11 @@ a:visited {
 /* aplica um efeito quando passamos o mouse por cima */
 a:hover {
     padding: 30px;
+    background-color: black;
+    cursor: pointer;
 }
+
+a:active {
+    background-color: grey;
+}
+
